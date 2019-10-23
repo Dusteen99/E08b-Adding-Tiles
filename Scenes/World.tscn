@@ -58,6 +58,7 @@ polygon = PoolVector2Array( 0, 640, 0, 0, 1024, 0, 1024, 640, 1088, 640, 1088, -
 [node name="Tiles" type="Node" parent="."]
 
 [node name="Gray Tiles" type="Node" parent="Tiles"]
+editor/display_folded = true
 
 [node name="Tile" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
 position = Vector2( 90, 350 )
